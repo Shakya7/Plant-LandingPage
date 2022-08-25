@@ -1,0 +1,129 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+body{
+    width:100vw;
+    height:100vh;
+}
+#navbarMonstera{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px;
+    padding-top:30px;
+}
+#navFirst img{
+    width:100px;
+}
+
+#navMid{
+    display:flex;
+    gap:100px;
+
+}
+#navEnd{
+    display: flex;
+    gap:40px;
+}
+#navMid div h4{
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+#navMid div h4::after{
+    content:"";
+    position: absolute;
+    width:100%;
+    height:0.175rem;
+    left:0;
+    bottom:0;
+    background-color:  black;
+    transform: scale(0,1);
+    transition: transform 0.3s ease-in-out;
+}
+#navMid div h4:hover::after{
+    transform: scale(1,1);
+}
+#midWhole{
+    display: flex;
+    width:100vw;
+    height:auto;
+}
+.h{
+    
+    width:47%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+#midWholePart1{
+    margin-top: 40px;
+
+}
+#monstera{
+    font-size: 7rem;
+    font-family: "Poppins";
+}
+.discover{
+    background-color: rgb(94, 104, 89);
+    color:white;
+    padding:7px;
+    border-radius: 26px;
+    margin-left: 50px;
+    margin-top:20px;
+    width:230px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.discover h1{
+    font-weight: lighter;
+    font-family: "Poppins";
+}
+#imgMain{
+    width:500px;
+    height:100vh;
+    
+}
+#midWholePart11{
+    display: flex;
+    margin-left: 20px;
+}
+#midWholePart13{
+    display: flex;
+}
+.midWholePart13Parts{
+    display:flex;
+    gap:10px;
+}
+.img-cont{
+    padding:5px; 
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.exp{
+    padding:10px;
+}
+#feeding, #light, #care{
+    width:80px;
+}
+#feeding{
+    transform: scale(1.5);
+}
+#light{
+    transform:scale(0.8);
+}
+.text-cont{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#midWholePart13{
+    margin-left: 30px;
+    margin-top:20px;
+}
